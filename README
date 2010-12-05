@@ -31,9 +31,6 @@ safeFN.js
         This script includes a completedset of the functions for encoding and decoding utf8 strings
         UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
-farhad_utf8.js
-       UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
-
 
 SafeFN.html
        An HTML file for testing the javascript SafeFN class     
