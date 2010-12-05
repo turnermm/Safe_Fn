@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<script type="text/javascript" src="safeFN_class.js"></script>
+
+<Title></Title>
+</HEAD>
+
+<script type = "text/javascript">
+function $(which) {
+  return document.getElementById(which);
+}
+window.onload = function() {
+   $('safe').value = '%td%ta%t3%t0%sw%t9%sw';
+  // $('unicode').value = SafeFN_decode($('safe').value);
+};
+</script>
+
+<BODY>
+<h3>Tests</h3>
+<table style="width: auto;">
+<tbody>
+<th>Unicode String</th>
+<td></td>
+<th>Safe File Name</th>
+</tr>
+<td><textarea id="unicode" rows="3"></textarea></td>
+<td align="center">
+			<input value="&gt; Safe Encode &gt;"
+                 onclick="$('safe').value = SafeFN_encode($('unicode').value); "
+                  type="button"><br>
+			<span id="time"></span><br><br>
+			<input value="&lt; Safe Decode &lt;"
+                 onclick="$('unicode').value = SafeFN_decode($('safe').value);"
+                 type="button">
+		</td>
+<td><textarea rows="3" id="safe"></textarea></td>
+</tr>
+<!-- tr><td>
+			<input value="Click to Start"
+                 onclick="$('unicode').value = SafeFN_decode($('safe').value);"
+                 type="button">
+</td></tr
+-->
+</tbody></table>
+
+</BODY>
+</HTML>
