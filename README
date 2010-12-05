@@ -2,8 +2,7 @@ SafeFN is class created by Christopher Smith for converting utf8 filenames to ma
 formats, developed for Dokuwiki.
 
 SafeFN_class.js is a javascript implementation of that
-class written by Myron Turner.  License GPL 2 or greater.
-
+Author Myron Turner.  License GPL 2 or greater.
 
 SafeFN_class.js
   All functions for coding and decoding safe filenames are incorporated into 
@@ -17,7 +16,6 @@ SafeFN_class.js
 
     This class incorporates several functions from
     UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
-     
 
 safeFN.js
   This does the same job as the SafeFN class, but the functions are not enclosed in a class.  
@@ -28,12 +26,14 @@ safeFN.js
 	Safe_decode(filename) {   
           decodes a 'safe' encoded file name and return a UTF8 string
 
-        This script includes a completedset of the functions for encoding and decoding utf8 strings
+        This script includes a complete set of the functions for encoding and decoding utf8 strings
         UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
 
 SafeFN.html
        An HTML file for testing the javascript SafeFN class     
 
-
+SafeFN_util.js
+       Two utility function which return encoding/decoding based on the Dokuwiki fnencnode value,which
+       must be passed into them.
 
