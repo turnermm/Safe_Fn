@@ -4,6 +4,12 @@ formats, developed for Dokuwiki.
 SafeFN_class.js is a javascript implementation of that
 Author Myron Turner.  License GPL 2 or greater.
 
+/********************************************/
+NOTE:
+This branch is in process of being updated to accommodate the new postindicator of ']'
+It is not yet ready for use.
+/********************************************/
+
 SafeFN_class.js
   All functions for coding and decoding safe filenames are incorporated into 
   the SafeFN class.  There are two accessor functions outside of the class:
