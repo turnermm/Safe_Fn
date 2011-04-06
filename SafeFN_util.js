@@ -10,7 +10,7 @@ function dwikiUTF8_encodeFN(file, encoding){
 
     if(encoding == 'utf-8') return file;
 
-    if(file.match(/^[a-zA-Z0-9\/_\-\.%]+$/)){
+    if(file.match(/^[a-zA-Z0-9\/_\-\.%\]]+$/)){
         return file;
     }
 

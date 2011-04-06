@@ -7,9 +7,9 @@
   */
 
 var SafeFN = {  
-	plain: '-/_0123456789abcdefghijklmnopqrstuvwxyz', // these characters aren't converted
+    plain: '-./[_0123456789abcdefghijklmnopqrstuvwxyz', // these characters aren't converted
 	pre_indicator: '%',
-	post_indicator:'.',
+	post_indicator:']',
 
     /**
      * convert numbers from base 10 to base 36 and base 36 to base 10
