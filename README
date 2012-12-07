@@ -6,8 +6,7 @@ Author Myron Turner.  License GPL 2 or greater.
 
 /********************************************/
 NOTE:
-This branch is updated to accommodate the new post_indicator of ']'
-It should be tested.
+updated to accommodate the new post_indicator of ']'
 /********************************************/
 
 SafeFN_class.js
