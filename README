@@ -42,3 +42,7 @@ SafeFN_util.js
        Two utility function which return encoding/decoding based on the Dokuwiki fnencnode value,which
        must be passed into them.
 
+exe/safeconv.php
+A script to be run in the browser for converting utf-8 file names to safe encoded file (and directory) names.  
+It must be installed in libe/exe and run from there.  The user must be an admin.
+
