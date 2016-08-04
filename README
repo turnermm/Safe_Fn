@@ -22,7 +22,7 @@ SafeFN_class.js
     This class incorporates several functions from
     UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
-safeFN.js
+exe/safeFN.js
   This does the same job as the SafeFN class, but the functions are not enclosed in a class.  
   There are two functions for encoding and decoding safe filenames:
 
@@ -35,7 +35,7 @@ safeFN.js
         UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
 
-SafeFN.html
+exe/SafeFN.html
        An HTML file for testing the javascript SafeFN class     
 
 SafeFN_util.js
