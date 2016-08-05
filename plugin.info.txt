@@ -2,8 +2,8 @@ base  safefn
 author  Myron Turner
 email  turnermm02@shaw.ca
 date  2016-08-05
-name  safefname
-desc  utilities for converting to and frm safe-encoding
+name  safefn
+desc  utilities for converting to and from safe-encoding
 url  https://www.dokuwiki.org/plugin:safefn
 
 
