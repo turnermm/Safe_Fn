@@ -1,8 +1,8 @@
-base  safefn
+base  safefnutil
 author  Myron Turner
 email  turnermm02@shaw.ca
 date  2016-08-05
-name  safefn
+name  safefnutil
 desc  utilities for converting to and from safe-encoding
 url  https://www.dokuwiki.org/plugin:safefn
 
