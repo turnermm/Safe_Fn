@@ -1,15 +1,18 @@
 SafeFN is class created by Christopher Smith for converting utf8 filenames to managable
 formats, developed for Dokuwiki.
 
+
+
 SafeFN_class.js is a javascript implementation of that
 Author Myron Turner.  License GPL 2 or greater.
 
+/****** SCRIPTS ******/
 /********************************************/
 NOTE:
 updated to accommodate the new post_indicator of ']'
 /********************************************/
 
-SafeFN_class.js
+scripts/SafeFN_class.js
   All functions for coding and decoding safe filenames are incorporated into 
   the SafeFN class.  There are two accessor functions outside of the class:
                 
@@ -22,7 +25,7 @@ SafeFN_class.js
     This class incorporates several functions from
     UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
-exe/safeFN.js
+scripts/safeFN.js
   This does the same job as the SafeFN class, but the functions are not enclosed in a class.  
   There are two functions for encoding and decoding safe filenames:
 
@@ -35,14 +38,14 @@ exe/safeFN.js
         UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
 
-exe/SafeFN.html
+scripts/SafeFN.html
        An HTML file for testing the javascript SafeFN class     
 
-SafeFN_util.js
+scripts/SafeFN_util.js
        Two utility function which return encoding/decoding based on the Dokuwiki fnencnode value,which
        must be passed into them.
 
-exe/safeconv.php
+scripts/safeconv.php
 A script to be run in the browser for converting utf-8 file names to safe encoded file (and directory) names
 or safe enncoded back to utf8.  
 It must be installed in libe/exe and run from there.  The user must be an admin.
