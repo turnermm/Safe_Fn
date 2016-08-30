@@ -37,16 +37,15 @@ scripts/safeFN.js
         This script includes a complete set of the functions for encoding and decoding utf8 strings
         UTF8 encoding/decoding functions Copyright (c) 2006 by Ali Farhadi. 
 
-
-scripts/SafeFN.html
-       An HTML file for testing the javascript SafeFN class     
-
 scripts/SafeFN_util.js
        Two utility function which return encoding/decoding based on the Dokuwiki fnencnode value,which
        must be passed into them.
 
 scripts/safeconv.php
-A script to be run in the browser for converting utf-8 file names to safe encoded file (and directory) names
-or safe enncoded back to utf8.  
-It must be installed in libe/exe and run from there.  The user must be an admin.
+      A script to be run in the browser for converting utf-8 file names to safe encoded file (and directory) names 
+      or safe enncoded back to utf8.  It does not update meta information. It must be installed in libe/exe and run
+      from there. It updates pages only, not media. The user must be an admin.
 
+admin.php
+     This puts into an admin the conversion functions. It updates media as well as pages. Currently in progress
+     and will be expanded to update meta information and to convert to and from url format.
