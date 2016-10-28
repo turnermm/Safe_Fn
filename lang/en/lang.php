@@ -11,4 +11,5 @@
 $lang['menu'] = 'SafeFNUtils Converter' ; 
 $lang['btn_safe'] = 'Safe';
 $lang['btn_utf8'] = 'UTF-8';
-$lang['about'] ="This app will convert UTF-8 directory and filenames to Dokuwiki's safe encoding or safe encoding to UTF-8";
+$lang['about'] ="This plugin will convert UTF-8 directory and filenames to Dokuwiki's safe encoding or safe encoding to UTF-8";
+$lang['mbstring'] ="This plugin requires the PHP mbstring extension";

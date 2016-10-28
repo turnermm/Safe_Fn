@@ -20,6 +20,10 @@ class admin_plugin_safefnutil extends DokuWiki_Admin_Plugin {
      * handle user request
      */
     function handle() {
+        if(!extension_loaded ( mbstring)) {
+              msg($this->getLang('mbstring') , 1);            
+              return;
+        }
     
       if (!isset($_REQUEST['cmd'])) return;   // first time - nothing to do
 
